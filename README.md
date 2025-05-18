@@ -1,8 +1,8 @@
-🚗 Egyptian License Plate Recognition (Streamlit App)
+# 🚗 Egyptian License Plate Recognition (Streamlit App)
 
 A Streamlit-based web application for detecting and recognizing Egyptian vehicle license plates using YOLO models and custom OCR logic.
 
- 🔍 Features
+## 🔍 Features
 
 - Upload or capture an image using a camera
 - Detect license plates in images using YOLO
@@ -12,8 +12,7 @@ A Streamlit-based web application for detecting and recognizing Egyptian vehicle
 - Bilingual interface: English and Arabic
 - Download processed results as images
 - python version >> 3.11
-
- 🗂 Project Structure
+## 🗂 Project Structure
 
 ```
 project/
@@ -29,7 +28,7 @@ project/
 └── README.md
 ```
 
-🚀 How to Run
+## 🚀 How to Run
 
 1. Open a terminal and navigate to the `web` folder:
 
@@ -56,45 +55,12 @@ project/
 
 5. The web app will open in your browser.
 
- 📝 Notes
+## 📝 Notes
 
 - Make sure your webcam permissions are allowed when using the "Use Camera" option.
 - The app supports both English and Arabic interface (selectable at the top).
 - Governorate classification is based on the recognized plate letters.
 
-📄 License
+## 📄 License
 
 MIT License.
-
-🧪 Try It Out
-You can test the license plate recognition system directly through the app:
-
-Upload an Image
-
-Use the sidebar or main interface to upload a clear photo of an Egyptian vehicle license plate.
-Supported formats: .jpg, .png, .jpeg.
-Use Camera (Optional)
-
-If your device has a webcam, click the "Use Camera" button to capture a live image.
-Allow camera permissions when prompted by your browser.
-Process the Image
-
-After uploading or capturing the image, click the "Detect and Recognize" button.
-The app will:
-Detect the license plate in the image
-Run OCR to extract Arabic letters and digits
-Display the recognized license plate
-Show the corresponding governorate (if available)
-Download Result
-
-Click the download button to save the image with annotations locally.
-
-![car](https://github.com/user-attachments/assets/97bb652f-4f18-4829-9b8d-a40d2217c61d)
-
-![car2](https://github.com/user-attachments/assets/28b9caa1-9676-470b-b523-53f4a1c997d5)
-
-
-
- 
-
-
